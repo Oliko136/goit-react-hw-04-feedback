@@ -1,0 +1,26 @@
+.optionsList {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.optionsButton {
+    padding: 5px 10px;
+    border: 2px solid transparent;
+    
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    background-color: #7d0a0a;
+
+}
+
+.optionsButton:hover,
+.optionsButton:focus {
+    color: #7d0a0a;
+    background-color: #ffffff;
+    border: 2px solid #7d0a0a;
+}
